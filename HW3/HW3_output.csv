@@ -1,0 +1,8 @@
+"58.8575667655786","qda( cut ~ .,             data=my.training.set )"
+"90.5614663603161","lm(  price ~ .,           data=my.training.set )"
+"94.4905246044347","lm(  log10(price) ~ .,    data=my.training.set )"
+"97.7744807121662","glm( I(price>1500) ~ ., data=my.training.set, family=binomial )"
+"65.326409495549","qda( cut ~ log10(price) + log10(table) + clarity + log10(carat) + depth + color + x + z, data=my.training.set )"
+"91.7299116066289","lm( price ~ carat + log10(cut) + log10(clarity) + color + log10(x) + log10(depth) + table + y, data=my.training.set ))"
+"97.9786888029396","lm(  log10(price) ~ table + log10(carat) + color + log10(clarity), data=my.training.set )"
+"98.419881305638","glm( I(price>1500) ~ carat + table + log10(clarity) + cut + z + x + depth + color , data=my.training.set, family = binomial )"

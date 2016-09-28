@@ -1,0 +1,2 @@
+"8178776989849353","train(log10(max_salary) ~ AB+R+H+X2B+X3B+HR+RBI+SB+CS+BB+BA+PA+SlugPct+OBP+BABIP + startYear + totalYears + birthYear + height + weight + endYear, data = RecentPlayersAndStatsAndSalary, method='cubist', preProc = c('center', 'scale'), trControl = trainControl(method = 'repeatedcv', repeats = 5))"
+"1","train(HallOfFame ~ AB+R+H+X2B+X3B+HR+RBI+SB+CS+BB+BA+PA+SlugPct+OBP+BABIP+HallOfFameYear, data=upSampledData, method='cubist', preProc = c('center', 'scale'), trControl = trainControl(method = 'repeatedcv', repeats = 5))"
